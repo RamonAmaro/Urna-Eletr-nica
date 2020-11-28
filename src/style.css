@@ -122,13 +122,28 @@ body{
     width: 100%;
     height: 100%;
 }
-.d-1-image.small{
+.small{
     width: 80%;
-    font-size: 12px;
-    float: right;
+    height: 80px;
+    margin: 5px auto;
 }
 .d-2{
     height: 50px;
     font: 15px;
     border-top: 2px solid #000;
+}
+
+.aviso--grande{ 
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.aviso--gigante {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 80px;
+  font-weight: bold;
 }
